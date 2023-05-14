@@ -9,7 +9,6 @@ export class StudentRegForm {
     @IsNotEmpty()
     email: string;
 
-
     @IsNotEmpty()
     password: string;
 
