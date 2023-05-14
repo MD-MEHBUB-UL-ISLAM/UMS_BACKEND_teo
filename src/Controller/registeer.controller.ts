@@ -46,6 +46,7 @@ export class StudentRegController {
   getAdmin(): any {
     return this.studentService.getIndex();
   }
+
   @Get('/indexbook')
   getallBook(): any {
     return this.bookService.getIndex();

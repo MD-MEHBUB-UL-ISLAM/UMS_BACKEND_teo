@@ -100,9 +100,9 @@ export class StudentController {
   }
 
    
-  @Get('/getimage/:fullname')
-  getImages(@Param('fullname') fullname, @Res() res) {
-    res.sendFile(fullname,{ root: './uploads' })
+  @Get('/getimage/:name')
+  getImages(@Param('name') name, @Res() res) {
+    res.sendFile(name,{ root: './uploads' })
   }
    
    
